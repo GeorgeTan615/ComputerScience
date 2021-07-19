@@ -1,0 +1,7 @@
+4)
+-The initial value of Register PC is 0x00400000, it then increases to 0x00400004 and then 0x00400008 and lastly 0x0040000c. The content of PC refers to the address of the next instruction to be executed.
+-Yes. The most right bit of the addresses increases by 4 from instruction to instruction, from 0 to 4 to 8 to C and back to 0 to 4 to 8 to C, so on and so forth.
+-Yes, every MIPS instruction has been assembled into a single machine code instruction.
+- In the data segment, the string "I am really is enjoying MIPS" is stored at address 0x10010000 and each value stores 4 bits of the string.
+
+5)The content of the registers changed and values are being stored in the register as the line of instruction is being executed. For example, the instructon of setting $v0 to 4 changes the value of $v0 to 4 when it is executed.

@@ -1,0 +1,16 @@
+1)
+Line 3 - Creating a string "I am really enjoying MIPS" at address strLabel.
+Line 6 - Store address strLabel in register $a0
+Line 7 - Set register $v0 to 4 to call code to print string
+
+2)
+strLabel is the only label present
+
+3)
+Line number 2, .data to create data and assemble into data segment
+Line number 3, .asciiz to allocate a ASCII string
+Line number 5, .text to assemble the instructions into text segment
+
+4)global variable: strLabel
+
+5)general purpose registers - $a0, $v0,$0
